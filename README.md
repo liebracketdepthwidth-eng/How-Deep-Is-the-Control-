@@ -19,6 +19,6 @@ This repository provides a rigorous modular framework investigating expressivity
 Clone the repository and install in editable mode:
 
 ```bash
-git clone [https://github.com/username/depthwidth-control.git](https://github.com/username/depthwidth-control.git)
+git clone [https://github.com/liebracketdepthwidth-eng/How-Deep-Is-the-Control-/tree/main.git](https://github.com/username/depthwidth-control.git)
 cd depthwidth-control
 pip install -e .
