@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "depthwidth"
+version = "1.0.0"
+description = "Lie-Bracket Depth-Width Trade-offs and Structural Priors in Deep Neural Networks"
+readme = "README.md"
+authors = [
+    { name = "Mohsen Mostafa" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.22.0",
+    "scipy>=1.8.0",
+    "matplotlib>=3.5.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.64.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0",
+    "flake8>=4.0"
+]
